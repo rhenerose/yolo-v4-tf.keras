@@ -1,0 +1,6 @@
+tensorflow==2.4.0
+opencv-python
+tqdm
+matplotlib
+pandas
+sklearn
