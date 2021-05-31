@@ -1,0 +1,48 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>xw4u1-3gsfj.mp4#t=23.866667.jpg</filename>
+    <path>物体検知-PascalVOC-export/Annotations/xw4u1-3gsfj.mp4#t=23.866667.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1920</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>nut</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>165.54826616682288</xmin>
+        <ymin>435.6000000000006</ymin>
+        <xmax>473.2521087160264</xmax>
+        <ymax>709.2</ymax>
+    </bndbox>
+</object><object>
+    <name>nut</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>887.1227741330846</xmin>
+        <ymin>311.40000000000026</ymin>
+        <xmax>1113.8519212746019</xmax>
+        <ymax>581.4000000000001</ymax>
+    </bndbox>
+</object><object>
+    <name>washer</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>640.5998125585758</xmin>
+        <ymin>750.6000000000001</ymin>
+        <xmax>942.9053420805999</xmax>
+        <ymax>1038.600000000001</ymax>
+    </bndbox>
+</object>
+</annotation>
