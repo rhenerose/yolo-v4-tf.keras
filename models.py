@@ -98,13 +98,14 @@ class Yolov4(object):
         return img
 
     def fit(self, train_data_gen, epochs, val_data_gen=None, initial_epoch=0, callbacks=None):
-        self.training_model.fit(train_data_gen,
-                                steps_per_epoch=len(train_data_gen),
-                                validation_data=val_data_gen,
-                                validation_steps=len(val_data_gen),
-                                epochs=epochs,
-                                callbacks=callbacks,
-                                initial_epoch=initial_epoch)
+        return self.training_model.fit(train_data_gen,
+                                       steps_per_epoch=len(train_data_gen),
+                                       validation_data=val_data_gen,
+                                       validation_steps=len(val_data_gen),
+                                       epochs=epochs,
+                                       callbacks=callbacks,
+                                       initial_epoch=initial_epoch)
+
     # raw_img: RGB
     def predict_img(self, raw_img, random_color=True, plot_img=True, figsize=(10, 10), show_text=True, return_output=False):
         print('img shape: ', raw_img.shape)
