@@ -3,4 +3,4 @@ opencv-python
 tqdm
 matplotlib
 pandas
-sklearn
+scikit-learn
